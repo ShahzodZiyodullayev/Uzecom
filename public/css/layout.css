@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    width: 100%;
+}
+
+/* >>>>>>>>>>>>>>>>>>> Header <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+header{
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    background-color: #003466;
+}
+
+#headerMenu{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#headerMenu ul{
+    height: 100%;
+    align-items: center;
+    display: flex;
+}
+
+#headerMenu ul li{
+    height: 100%;
+    margin: 15px;
+    list-style-type: none;
+}
+
+#headerMenu ul li h4{
+    position: relative;
+    display: flex;
+    align-items: center ;
+    height: 100%;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+.dropDown{
+    position: absolute;
+    width: 130% ;
+    height: 100px;
+    top: 100%;
+    left: 0;
+    padding: 20px 0 20px 20px;
+    visibility: hidden;
+    background-color: white;
+    z-index: 1000;
+}
+
+._dropDown{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    top: 0;
+    left: 100%;
+    padding: 20px;
+    visibility: hidden;
+    background-color: white;
+}
+
+.threeDrop{
+    height: 70px;
+}
+
+.dropDown a{
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+}
+
+.dropDown h5{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3px;
+    padding-right: 20px;
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-weight: 100;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.horizontal{
+    border: none;
+    height: 1px;
+    background: rgb(235, 235, 235);
+}
+
+.threeDrop a{
+    display: flex;
+    justify-content: space-between;
+}
+
+#headerMenu h4:hover .dropDown{
+    visibility: visible;
+}
+
+.dropDown h5:hover ._dropDown{
+    visibility: visible;
+}
+
+.dropDown a:hover{
+    color: #003466;
+}
+
+#headerIcons{
+    color: white;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.headerRound{
+    position: relative;
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 9px;
+    width: 38px;
+    height: 38px;
+    margin: 10px;
+}
+
+.box{
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.box .dropDown{
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    left: -100%;
+    padding: 0;
+}
+
+.box .dropDown .profile{
+    display: flex;
+    align-items: center;
+    color: #565656;
+    width: 100%;
+    background-color: #E9E4E4;
+    padding: 5px 20px;
+    margin-bottom: 10px;
+}
+
+.box2 .dropDown{
+    height: 70px;
+    width: 100%;
+    left: 0;
+    padding: 20px;
+}
+
+.box2 .dropDown a{
+    margin: 0 !important;
+}
+
+.box .dropDown .profile p{
+    margin-left: 10px;
+    font-size: 8px;
+}
+
+.box .dropDown a{
+    margin-left: 20px;
+}
+
+.search{
+    z-index: 1000;
+    color: white;
+}
+
+.headerRound input{
+    padding: 10px;
+    position: absolute;
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s;
+    border: none;
+    border-radius: 20px;
+    visibility: hidden;
+    background-color: white;
+    z-index: -1;
+}
+
+.search:hover input{
+    width: 150px;
+    opacity: 1;
+    visibility: visible;
+}
+
+.search:hover i::before{
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.search:hover i{
+    color: #003466;
+}
+
+.box:hover .dropDown{
+    opacity: 1;
+    visibility: visible;
+}
+
+/* >>>>>>>>>>>>>>>>>>> Footer <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+footer{
+    width: 100%;
+    height: 370px;
+    padding: 30px 100px;
+    background-color: #032546;
+}
+
+.footerBox{
+    width: 100%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.copyRight{
+    color: #D9DBE1;
+    margin-top: 30px;
+}
+
+.footerBox{
+    display: flex;
+}
+
+.footerBoxes{
+    height: 260px;
+    padding-right: 45px;
+    /* background-color: red; */
+    flex: 1;
+}
+
+.categoryName{
+    width: 100%;
+    height: 70px;
+    color: white;
+    /* background-color: green; */
+}
+
+.content{
+    color: #D9DBE1;
+    font-size: 14px;
+}
+
+.contentLine{
+    display: flex;
+    align-items: flex-start;
+    margin: 0 0 10px 0;
+}
+
+.contentLine i{
+    margin: 3px 7px 3px 3px;
+}
+
+.three .content{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.three .content i{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.16);
+    cursor: pointer;
+}
+
+.three .content i:nth-child(2){
+    margin: 0 20px;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>> main <<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+main{
+    position: relative;
+    width: 100%;
+    padding: 0 100px;
+    /* z-index: -1; */
+}

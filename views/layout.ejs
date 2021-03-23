@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/layout.css">
+    <script src="https://kit.fontawesome.com/87e1470adc.js" crossorigin="anonymous"></script>
+    <title><%- title%></title>
+</head>
+<body>
+
+    <!-- >>>>>>>>>>>>>>>> Header <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+    
+    <header>
+
+        <div id="headerMenu">
+            <ul>
+                <li><h4>ДЛЯ МУЖЧИН 
+                    <i class="fas fa-chevron-down"></i>
+                    <div class="dropDown oneDrop">
+                        <a href="#">Рубашки</a>
+                        <hr class="horizontal">
+                        <a href="#">Свитшоты</a>
+                        <hr class="horizontal">
+                        <a href="#">Джинсы</a>
+                    </div>
+                </h4></li>
+                
+                <li><h4>ДЛЯ ЖЕНЩИН 
+                    <i class="fas fa-chevron-down"></i>
+                    <div class="dropDown twoDrop">
+                        <a href="#">Платья</a>
+                        <hr class="horizontal">
+                        <a href="#">Свитшоты</a>
+                        <hr class="horizontal">
+                        <a href="#">Джинсы</a>
+                    </div>
+                </h4></li>
+                
+                <li><h4>ДЛЯ ДЕТЕЙ 
+                    <i class="fas fa-chevron-down"></i>
+                    <div class="dropDown threeDrop">
+                        <h5>Для мальчиков 
+                            <i class="fas fa-chevron-down"></i>
+                            <div class="_dropDown">
+                                <a href="#">Футболки</a>
+                            </div>
+                        </h5>
+                        <hr class="horizontal">
+                        <h5>Для девочек 
+                            <i class="fas fa-chevron-down"></i>
+                            <div class="_dropDown">
+                                <a href="#">Платья</a>
+                            </div>
+                        </h5>
+                        <hr class="horizontal">
+                    </div>        
+                </h4></li>
+                
+            </ul>
+        </div>
+
+        <div id="logo">
+            <img src="./images/clozzone.png" alt="">
+        </div>
+
+        <div id="headerIcons">
+            <div class="headerRound search">
+                <input type="text" placeholder="Поиск">
+                <i class="fas fa-search"></i>
+            </div>
+            <div class="headerRound shop">
+                <i class="fas fa-shopping-cart"></i>
+            </div>
+            <div class="box">
+                <div class="headerRound people">
+                    <i class="far fa-user"></i>
+                </div>
+                <div class="dropDown">
+                    <div class="profile">
+                        <i class="far fa-user-circle"></i>
+                        <p>+998-93-456-45-78</p>
+                    </div>
+                    <a href="#"><b>&rsaquo;</b> Профиль</a>
+                    <a href="#"><b>&rsaquo;</b> Заказы</a>
+                    <a href="#"><b>&rsaquo;</b> Выйти</a>
+                </div>
+            </div>
+            <div class="box box2">
+                <div class="headerRound language">
+                    <i class="fas fa-globe-africa"></i>
+                </div>
+                <div class="dropDown">
+                    <a href="#">Уз</a>
+                    <a href="#">Ру</a>
+                </div>
+            </div>
+            
+        </div>
+    </header>
+
+
+    <!-- >>>>>>>>>>> body <<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+
+    <main>
+        <%- body%>
+    </main>
+
+    <!-- >>>>>>>>>>> body <<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+
+    <!-- >>>>>>>>>>>>>>>> Footer <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+
+    <footer>
+        <div class="footerBox">
+            <div class="footerBoxes one">
+                <div class="categoryName">
+                    <img src="./images/uzecom.png" alt="">
+                </div>
+                <div class="content">
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                </div>
+            </div>
+            <div class="footerBoxes two">
+                <div class="categoryName">
+                    <h2>Связаться с нами</h2>
+                </div>
+                <div class="content">
+                    <div class="contentLine">
+                        <i class="fas fa-envelope"></i>
+                        <p>info@uzecom.com</p>
+                    </div>
+                    <div class="contentLine">
+                        <i class="fas fa-phone-alt"></i>
+                        <p>+99890 123 45 67</p>
+                    </div>
+                    <div class="contentLine">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Tashkent city, Almazar district, Sebzor Ts 17/18 dacha, 194 house</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footerBoxes three">
+                <div class="categoryName">
+                    <h2>Социальные сети</h2>
+                </div>
+                <div class="content">
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-telegram-plane"></i>
+                    <i class="fab fa-facebook-f"></i>
+                </div>
+            </div>
+            <div class="footerBoxes four">
+                <div class="categoryName">
+                    <h2>Cпособы оплаты</h2>
+                </div>
+                <div class="content">
+                    <img src="./images/payme.png" alt="">
+                    <img src="./images/uzcard.png" alt="">
+                    <img src="./images/click.png" alt="">
+                    <img src="./images/humo.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="copyRight">
+            © “Uzecom” Created by UMDSOFT development.2021
+        </div>
+    </footer>
+</body>
+</html>

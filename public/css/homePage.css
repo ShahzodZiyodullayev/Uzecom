@@ -1,0 +1,252 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.imageContainer{
+    position: relative;
+    width: calc(100% + 200px);
+    left: -100px;
+    overflow: hidden;
+    height: 500px;
+    background-image: url(../images/girlTwo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.imageContainer img{
+    width: 100%;
+}
+
+.brand{
+    padding-bottom: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.brand h1{
+    font-weight: 200;
+    margin: 50px;
+}
+
+.brand h3{
+    font-weight: 500;
+}
+
+.brandContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.brandContainer h2{
+    font-size: 80px;
+    margin-bottom: 35px;
+}
+
+.brandBox{
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.brandContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid #CCCCCC;
+}
+
+.brandContent img{
+    width: 80px;
+}
+
+/* >>>>>>>>>>>>>>>> New Collection <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+.newCollection{
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.newCollection h1{
+    font-weight: 200;
+    margin: 50px;
+}
+
+.newCollection h3{
+    font-weight: 200;
+    color: #666666;
+}
+
+.clothesIconContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clothesIconBox{
+    height: 105px;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clothesIconBox img{
+    margin: 0 15px;
+}
+
+/* >>>>>>>>>>>>>>>>>>> Card <<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+.card{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardBox{
+    width: 270px;
+    /* height: 475px; */
+    /* background-color: blue; */
+}
+
+.imagePiece{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #EBEBEB;
+    height: 300px;
+    width: 100%;
+}
+
+.leftRight{
+    display: flex;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+    color: white;
+    background-color: rgba(155,155,155, 0.3);
+    cursor: pointer;
+}
+
+.arrow:hover{
+    background-color: white;
+    color: rgba(155,155,155, 0.3);
+}
+
+.cardContent{
+    padding: 10px;
+}
+
+.cardContent h3{
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.cardContent p{
+    padding: 7px 0;
+    color: #666666;
+    font-size: 14px;
+}
+
+.cardContent h5{
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.dots{
+    margin: 7px 0;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dot{
+    width: 15px;
+    height: 15px;
+    border: none;
+    border-radius: 50%;
+}
+
+.dot:nth-child(1){background-color: #779CD1;}
+.dot:nth-child(2){background-color: #666278;}
+.dot:nth-child(3){background-color: #FF0000;}
+.dot:nth-child(4){background-color: #FFFF00;}
+
+.cardContent button{
+    padding: 5px 20px;
+    border: 1px solid #003466;
+    color: #003466;
+    background-color: white;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.cardContent button:hover{
+    background-color: #003466;
+    color: white;
+}
+
+/* >>>>>>>>>>>>>>>>> Banner <<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+.banner{
+    margin: 100px 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+/* >>>>>>>>>>>>>>>> Top <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+.top{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.top h1{
+    font-weight: 200;
+    margin-bottom: 50px;
+}
+
+.top .end{
+    margin: 50px;
+    padding: 5px 60px;
+    border: 1px solid #003466;
+    color: #003466;
+    background-color: white;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.top .end:hover{
+    background-color: #003466;
+    color: white;
+}
