@@ -5,3 +5,7 @@ exports.homePage = (req, res) => {
 exports.catalog = (req, res) => {
     res.render("./page/catalog", {layout: "layout", title: "Katalog"})
 }
+
+exports.Zakaz = (req, res) => {
+    res.render("./page/Zakaz", {layout: "layout", title: "Buyurtma"})
+}
