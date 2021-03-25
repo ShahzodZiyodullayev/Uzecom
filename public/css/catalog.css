@@ -67,6 +67,7 @@ body{
 }
 
 .filterList{
+    position: relative;
     padding: 10px;
     margin: 20px 0;
     background-color: #F5F0F0;
@@ -79,6 +80,7 @@ body{
 }
 
 .filterName i{
+    position: relative;
     display: flex;
     align-items: center;
     color: #C4C4C4;
@@ -95,8 +97,9 @@ body{
 }
 
 .filterBefore{
-    padding: 10px 30px;
-    /* background-color: pink; */
+    height: 0;
+    /* padding: 10px 30px; */
+    background-color: pink !important;
 }
 
 /* >>>>>>>>>>>>>>>>>>>>>> RightContent <<<<<<<<<<<<<<<<<<<<<<<<<<< */
