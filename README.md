@@ -1,2 +1,1 @@
-# Uzecom
-cd
+
