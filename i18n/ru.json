@@ -1,0 +1,38 @@
+{
+    "erkaklarUchun" : "ДЛЯ МУЖЧИН",
+    "ayollarUchun" : "ДЛЯ ЖЕНЩИН",
+    "bolalarUchun" : "ДЛЯ ДЕТЕЙ",
+
+    "koylaklar" : "Рубашки",
+    "sviterlar" : "Свитери",
+    "jinsilar" : "Джинсы",
+    "liboslar" : "Платья",
+    "futbolkalar" : "Футболки",
+
+    "yigitlarUchun" : "Для мальчиков",
+    "qizlarUchun" : "Для девочек",
+    "izlash" : "Поиск",
+
+    "profil" : "Профиль",
+    "buyurtma" : "Заказы", 
+    "chiqish" : "Выйти",
+
+    "bizBilanAloqa" : "Связаться с нами",
+    "ijtimoiyTarmoqlar" : "Социальные сети",
+    "tolovUsullari" : "Cпособы оплаты",
+    "manzil" : "Город Ташкент, улица Алмазара, Себзор 17/18, дом 194",
+    "yaratuvchi" : "© “Uzecom” Создано UMDSOFT development 2021",
+
+    "brend" : "БРЕНДЫ",
+    "yangiKolleksiya" : "НОВАЯ КОЛЛЕКЦИЯ",
+    "umumiy" : "Общее",
+    "ayollar" : "Для женщин",
+    "erkaklar" : "Для мужчин",
+    "bolalar" : "Для детей",
+    "kontrastli" : "Рубашка с контрастным дизайном",
+    "som" : "cум",
+    "savatgaQoshish" : "Добавить в корзину",
+    "engYaxshi" : "ХИТЫ ПРОДАЖ",
+    "yana" : "Eщё"
+    
+}
