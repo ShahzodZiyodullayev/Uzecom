@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+
+.zakazGeneralImg{
+    position: relative;
+    width: calc(100% + 200px);
+    left: -100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 370px;
+    background-position: center;
+    background-image: url(../images/zakazwear.png);
+}
+
+.line{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 50px;
+}
+.line h4{
+    font-size: 14px;
+}
+
+.zakazN0{
+    padding-bottom: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.zakazN0 h1{
+    font-weight: 200;
+    margin: 40px;
+}
+
+.zakazN0 .zakazTable{
+    width: 65%;
+}
+
+.zakazN0 .zakazLine{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.zakazTable{
+    border-collapse: collapse;
+}
+
+.zakazTable tr td {
+    height: 100px;
+}
+
+.zakazTable .tableHeader{
+    color: rgb(155, 154, 151);
+    height: 50px;
+    background-color: rgb(212, 211, 207);
+}
+
+.dannie{
+    width: 30%;
+    height: 200px;
+    background-color: rgb(212, 211, 207);
+}
