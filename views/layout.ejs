@@ -16,42 +16,42 @@
 
         <div id="headerMenu">
             <ul>
-                <li><h4>ДЛЯ МУЖЧИН 
+                <li><h4><%= translation.erkaklarUchun%> 
                     <i class="fas fa-chevron-down"></i>
                     <div class="dropDown oneDrop">
-                        <a href="#">Рубашки</a>
+                        <a href="/catalog"><%= translation.koylaklar%></a>
                         <hr class="horizontal">
-                        <a href="#">Свитшоты</a>
+                        <a href="/catalog"><%= translation.sviterlar%></a>
                         <hr class="horizontal">
-                        <a href="#">Джинсы</a>
+                        <a href="/catalog"><%= translation.jinsilar%></a>
                     </div>
                 </h4></li>
                 
-                <li><h4>ДЛЯ ЖЕНЩИН 
+                <li><h4><%= translation.ayollarUchun%> 
                     <i class="fas fa-chevron-down"></i>
                     <div class="dropDown twoDrop">
-                        <a href="#">Платья</a>
+                        <a href="#"><%= translation.liboslar%></a>
                         <hr class="horizontal">
-                        <a href="#">Свитшоты</a>
+                        <a href="#"><%= translation.sviterlar%></a>
                         <hr class="horizontal">
-                        <a href="#">Джинсы</a>
+                        <a href="#"><%= translation.jinsilar%></a>
                     </div>
                 </h4></li>
                 
-                <li><h4>ДЛЯ ДЕТЕЙ 
+                <li><h4><%= translation.bolalarUchun%> 
                     <i class="fas fa-chevron-down"></i>
                     <div class="dropDown threeDrop">
-                        <h5>Для мальчиков 
+                        <h5><%= translation.yigitlarUchun%>> 
                             <i class="fas fa-chevron-down"></i>
                             <div class="_dropDown">
-                                <a href="#">Футболки</a>
+                                <a href="#"><%= translation.futbolkalar%></a>
                             </div>
                         </h5>
                         <hr class="horizontal">
-                        <h5>Для девочек 
+                        <h5><%= translation.qizlarUchun%> 
                             <i class="fas fa-chevron-down"></i>
                             <div class="_dropDown">
-                                <a href="#">Платья</a>
+                                <a href="#"><%= translation.liboslar%></a>
                             </div>
                         </h5>
                         <hr class="horizontal">
@@ -61,9 +61,9 @@
             </ul>
         </div>
 
-        <div id="logo">
+        <a href="/" id="logo">
             <img src="./images/clozzone.png" alt="">
-        </div>
+        </a>
 
         <div id="headerIcons">
             <div class="headerRound search">
@@ -92,8 +92,8 @@
                     <i class="fas fa-globe-africa"></i>
                 </div>
                 <div class="dropDown">
-                    <a href="#">Уз</a>
-                    <a href="#">Ру</a>
+                    <a href="/?clang=uz">Уз</a>
+                    <a href="/?clang=ru">Ру</a>
                 </div>
             </div>
             

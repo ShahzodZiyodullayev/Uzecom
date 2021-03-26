@@ -23,6 +23,10 @@ header{
     background-color: #003466;
 }
 
+#logo{
+    cursor: pointer;
+}
+
 #headerMenu{
     height: 100%;
     display: flex;

@@ -6,8 +6,7 @@ const {
     editModerator, 
     components, 
     charts, 
-    addingModerator, 
-    moderatorList
+    addingModerator
 } = require("../controller/adminContorller")
 
 const {

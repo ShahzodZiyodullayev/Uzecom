@@ -2,31 +2,31 @@ const uzecom = require("../model/uzecom")
 
 exports.add = async(req, res) => {
 
-  // const mobs = new uzecom({
-  //   name: req.body.name,
-  //   email: req.body.email,
-  //   telephone: req.body.telephone,
-  //   password: req.body.password,
-  //   rePassword: req.body.rePassword,
-  //   role: req.body.role
-  // })
-  // mobs.save()
-  // .then(() => {
-  //   res.status(201).json({
-  //     success: true,
-  //     data: mobs
-  //   })
-  //   // console.log(mobs)
-  //   // res.redirect("/typography")
-  // })
-  // .catch((error) => {
-  //   res.status(400).json({
-  //     success: false,
-  //     data: error
-  //   })
-  // })
+  const mobs = new uzecom({
+    name: req.body.name,
+    email: req.body.email,
+    telephone: req.body.telephone,
+    password: req.body.password,
+    rePassword: req.body.rePassword,
+    role: req.body.role
+  })
+  mobs.save()
+  .then(() => {
+    res.status(201).json({
+      success: true,
+      data: mobs
+    })
+    // console.log(mobs)
+    // res.redirect("/typography")
+  })
+  .catch((error) => {
+    res.status(400).json({
+      success: false,
+      data: error
+    })
+  })
 
-  console.log(req.body)
+  // console.log(req.body)
   
 }
 
