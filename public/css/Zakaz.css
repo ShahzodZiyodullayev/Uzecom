@@ -50,7 +50,7 @@ a{
 }
 
 .zakazN0 .zakazTable{
-    width: 65%;
+    width: 70%;
 }
 
 .zakazN0 .zakazLine{
@@ -73,8 +73,85 @@ a{
     background-color: rgb(212, 211, 207);
 }
 
+
+.hiring{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.hiringImage{
+    width: 35%;
+}
+
+.hiringImage img{
+   width: 100%;
+
+}
+
+.hiringText{
+    margin-top: 15px;
+    width: 60%;
+}
+
+.hiringText span{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.hiringText p{
+    font-family:  'Times New Roman', bold;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.amount{
+    margin-top: 15px;
+    width: 10%;
+    display: flex;
+    height: 40px;
+}
+
+.amount button{
+    cursor: pointer;
+}
+
+.amount button i{
+    width: 35px;
+}
+
+.amount input{
+    width: 70px;
+}
+
+.price{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.color{
+    margin-top: 15px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(140, 146, 231);
+}
+
+.size{
+    margin-top: 15px;
+}
+
+.delete a i{ 
+    margin-top: 15px;
+    color: rgb(27, 27, 121);
+    font-size: 25px;
+}
+
 .dannie{
-    width: 30%;
-    height: 200px;
+    width: 25%;
     background-color: rgb(212, 211, 207);
 }
+
