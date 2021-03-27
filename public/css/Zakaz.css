@@ -49,17 +49,19 @@ a{
     margin: 40px;
 }
 
-.zakazN0 .zakazTable{
-    width: 70%;
+.zakazTable{
+    width: 800px;
 }
 
-.zakazN0 .zakazLine{
+.zakazLine{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.zakazTable table{
+.fristTable{
+    width: 820px;
     border-collapse: collapse;
 }
 
@@ -152,7 +154,7 @@ a{
 
 .dannie{
     height: 480px;
-    width: 25%;  
+    width: 280px;  
     background-color: rgb(212, 211, 207);
     display: flex;
     flex-direction: column;
@@ -179,7 +181,7 @@ a{
 }
 
 .allProduct{
-    width: 82%;
+    width: 670px;
 }
 
 .allProduct h1{
