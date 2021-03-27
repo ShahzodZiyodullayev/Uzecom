@@ -59,7 +59,7 @@ a{
     justify-content: space-between;
 }
 
-.zakazTable{
+.zakazTable table{
     border-collapse: collapse;
 }
 
@@ -151,7 +151,38 @@ a{
 }
 
 .dannie{
-    width: 25%;
+    height: 480px;
+    width: 25%;  
     background-color: rgb(212, 211, 207);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
+.shaxsiyMalumot h2{
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.malumot{
+    margin-left: 15px;
+    width: 90%;
+    height: 40px;
+    background-color: #fff;
+}
+
+.malumot p{
+    color: rgb(155, 154, 151);
+    margin-left: 5px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.allProduct{
+    width: 82%;
+}
+
+.allProduct h1{
+    color: #003466;
+    font-weight: bold;
+}
