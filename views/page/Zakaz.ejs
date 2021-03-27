@@ -8,7 +8,6 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/Zakaz.css">
     <script src="./js/zakaz.js" defer></script>
-
 </head>
 
 <body>
@@ -21,8 +20,13 @@
     <div class="zakazN0">
 
         <h1>
-            <%=translation.buyurtma%> №5234
+            <%=translation.meningZakazim%>
         </h1>
+
+        <h2>
+            <%=translation.buyurtma%> №5234
+        </h2>
+        <br>
 
         <div class="zakazLine">
             <div class="zakazTable">
@@ -44,7 +48,7 @@
                         <th>
                             <%=translation.olchami%>
                         </th>
-                        <th></th>
+
                     </tr>
 
                     <tr>
@@ -82,9 +86,7 @@
                                 <h3>XL</h3>
                             </div>
                         </td>
-                        <td>
-                            <div class="delete"><a href="#"><i class="fas fa-times"></i></a></div>
-                        </td>
+
                     </tr>
                     <tr>
                         <td style="width: 34%;">
@@ -121,9 +123,7 @@
                                 <h3>XXL</h3>
                             </div>
                         </td>
-                        <td>
-                            <div class="delete"><a href="#"><i class="fas fa-times"></i></a></div>
-                        </td>
+
                     </tr>
                     <tr>
                         <td style="width: 34%;">
@@ -160,38 +160,319 @@
                                 <h3>M</h3>
                             </div>
                         </td>
-                        <td>
-                            <div class="delete"><a href="#"><i class="fas fa-times"></i></a></div>
-                        </td>
+
                     </tr>
 
                 </table>
-                <br>
-                <hr>
-                <table class="allProduct">
-                    <tr>
-                        <th><h1><%=translation.jami%> :</h1></th>
-                        <th><span>3 шт</span></th>
-                        <th> <p class="price" style="margin: 0; margin-left: 30px; ">370 000 <%=translation.som%>.</p></th>
-                    </tr>
-                </table>
             </div>
 
-
-            <div class="dannie">
-                <div class="shaxsiyMalumot"><h2><%=translation.shaxsiyMalumot%></h2></div>
-                <div class="malumot"><p>Бектаев Асадбек Абдухамидович</p></div>
-                <div class="malumot"><p>Узбекистан</p></div>
-                <div class="malumot"><p>г. Ташкент</p></div>
-                <div class="malumot"><p>Ул. Уртасарай Т 35</p></div>
-                <div class="malumot"><p>Completed</p></div>
-                <div class="malumot"><p>370 000 сум</p></div>
+            <div class="orderSee">
+                <a href="/detalkaZakaz"><p><%=translation.orderSee%></p></a>
             </div>
+
         </div>
+        <br><br><br>
+        <div class="zakazN0">
+    
+            <h2>
+                <%=translation.buyurtma%> №5345
+            </h2>
+            <br>
+    
+            <div class="zakazLine">
+                <div class="zakazTable">
+                    <table class="fristTable">
+    
+                        <tr class="tableHeader">
+                            <th>
+                                <%=translation.turi%>
+                            </th>
+                            <th>
+                                <%=translation.miqdori%>
+                            </th>
+                            <th>
+                                <%=translation.narxi%>
+                            </th>
+                            <th>
+                                <%=translation.rangi%>
+                            </th>
+                            <th>
+                                <%=translation.olchami%>
+                            </th>
+    
+                        </tr>
+    
+                        <tr>
+                            <td style="width: 34%;">
+                                <div class="hiring">
+                                    <div class="hiringImage">
+                                        <img src="./images/one.png" alt="">
+                                    </div>
+                                    <div class="hiringText">
+                                        <p>ZARA <%=translation.koylak%>
+                                        </p>
+    
+                                        <span>
+                                            <%=translation.kontrastli%>
+                                        </span>
+                                    </div>
+                                </div>
+                            </td>
+    
+                            <td>
+                                <div class="amount">
+                                    <button><i class="fas fa-minus"></i></button>
+                                    <input type="text" value="1 ШТ">
+                                    <button><i class="fas fa-plus"></i></button>
+                                </div>
+                            </td>
+                            <td>
+                                <p class="price">100 000 <%=translation.som%>.</p>
+                            </td>
+                            <td>
+                                <div class="color"></div>
+                            </td>
+                            <td>
+                                <div class="size">
+                                    <h3>XL</h3>
+                                </div>
+                            </td>
+    
+                        </tr>
+                        <tr>
+                            <td style="width: 34%;">
+                                <div class="hiring">
+                                    <div class="hiringImage">
+                                        <img src="./images/two.png" alt="">
+                                    </div>
+                                    <div class="hiringText">
+                                        <p>ZARA <%=translation.koylak%>
+                                        </p>
+    
+                                        <span>
+                                            <%=translation.kontrastli%>
+                                        </span>
+                                    </div>
+                                </div>
+                            </td>
+    
+                            <td>
+                                <div class="amount">
+                                    <button><i class="fas fa-minus"></i></button>
+                                    <input type="text" value="1 ШТ">
+                                    <button><i class="fas fa-plus"></i></button>
+                                </div>
+                            </td>
+                            <td>
+                                <p class="price">120 000 <%=translation.som%>.</p>
+                            </td>
+                            <td>
+                                <div class="color"></div>
+                            </td>
+                            <td>
+                                <div class="size">
+                                    <h3>XXL</h3>
+                                </div>
+                            </td>
+    
+                        </tr>
+                        <tr>
+                            <td style="width: 34%;">
+                                <div class="hiring">
+                                    <div class="hiringImage">
+                                        <img src="./images/three.png" alt="">
+                                    </div>
+                                    <div class="hiringText">
+                                        <p>ZARA <%=translation.koylak%>
+                                        </p>
+    
+                                        <span>
+                                            <%=translation.kontrastli%>
+                                        </span>
+                                    </div>
+                                </div>
+                            </td>
+    
+                            <td>
+                                <div class="amount">
+                                    <button><i class="fas fa-minus"></i></button>
+                                    <input type="text" value="1 ШТ">
+                                    <button><i class="fas fa-plus"></i></button>
+                                </div>
+                            </td>
+                            <td>
+                                <p class="price">150 000 <%=translation.som%>.</p>
+                            </td>
+                            <td>
+                                <div class="color"></div>
+                            </td>
+                            <td>
+                                <div class="size">
+                                    <h3>M</h3>
+                                </div>
+                            </td>
+    
+                        </tr>
+    
+                    </table>
+                </div>
+    
+                <div class="orderSee">
+                    <a href="/detalkaZakaz"><p><%=translation.orderSee%></p></a>
+                </div>
+    
+            </div>
+            <br><br><br>
+            <div class="zakazN0">
 
-
-    </div>
-
+                <h2>
+                    <%=translation.buyurtma%> №5240
+                </h2>
+                <br>
+        
+                <div class="zakazLine">
+                    <div class="zakazTable">
+                        <table class="fristTable">
+        
+                            <tr class="tableHeader">
+                                <th>
+                                    <%=translation.turi%>
+                                </th>
+                                <th>
+                                    <%=translation.miqdori%>
+                                </th>
+                                <th>
+                                    <%=translation.narxi%>
+                                </th>
+                                <th>
+                                    <%=translation.rangi%>
+                                </th>
+                                <th>
+                                    <%=translation.olchami%>
+                                </th>
+        
+                            </tr>
+        
+                            <tr>
+                                <td style="width: 34%;">
+                                    <div class="hiring">
+                                        <div class="hiringImage">
+                                            <img src="./images/one.png" alt="">
+                                        </div>
+                                        <div class="hiringText">
+                                            <p>ZARA <%=translation.koylak%>
+                                            </p>
+        
+                                            <span>
+                                                <%=translation.kontrastli%>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </td>
+        
+                                <td>
+                                    <div class="amount">
+                                        <button><i class="fas fa-minus"></i></button>
+                                        <input type="text" value="1 ШТ">
+                                        <button><i class="fas fa-plus"></i></button>
+                                    </div>
+                                </td>
+                                <td>
+                                    <p class="price">100 000 <%=translation.som%>.</p>
+                                </td>
+                                <td>
+                                    <div class="color"></div>
+                                </td>
+                                <td>
+                                    <div class="size">
+                                        <h3>XL</h3>
+                                    </div>
+                                </td>
+        
+                            </tr>
+                            <tr>
+                                <td style="width: 34%;">
+                                    <div class="hiring">
+                                        <div class="hiringImage">
+                                            <img src="./images/two.png" alt="">
+                                        </div>
+                                        <div class="hiringText">
+                                            <p>ZARA <%=translation.koylak%>
+                                            </p>
+        
+                                            <span>
+                                                <%=translation.kontrastli%>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </td>
+        
+                                <td>
+                                    <div class="amount">
+                                        <button><i class="fas fa-minus"></i></button>
+                                        <input type="text" value="1 ШТ">
+                                        <button><i class="fas fa-plus"></i></button>
+                                    </div>
+                                </td>
+                                <td>
+                                    <p class="price">120 000 <%=translation.som%>.</p>
+                                </td>
+                                <td>
+                                    <div class="color"></div>
+                                </td>
+                                <td>
+                                    <div class="size">
+                                        <h3>XXL</h3>
+                                    </div>
+                                </td>
+        
+                            </tr>
+                            <tr>
+                                <td style="width: 34%;">
+                                    <div class="hiring">
+                                        <div class="hiringImage">
+                                            <img src="./images/three.png" alt="">
+                                        </div>
+                                        <div class="hiringText">
+                                            <p>ZARA <%=translation.koylak%>
+                                            </p>
+        
+                                            <span>
+                                                <%=translation.kontrastli%>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </td>
+        
+                                <td>
+                                    <div class="amount">
+                                        <button><i class="fas fa-minus"></i></button>
+                                        <input type="text" value="1 ШТ">
+                                        <button><i class="fas fa-plus"></i></button>
+                                    </div>
+                                </td>
+                                <td>
+                                    <p class="price">150 000 <%=translation.som%>.</p>
+                                </td>
+                                <td>
+                                    <div class="color"></div>
+                                </td>
+                                <td>
+                                    <div class="size">
+                                        <h3>M</h3>
+                                    </div>
+                                </td>
+        
+                            </tr>
+        
+                        </table>
+                    </div>
+        
+                    <div class="orderSee">
+                        <a href="/detalkaZakaz"><p><%=translation.orderSee%></p></a>
+                    </div>
+        
+                </div>
 
 </body>
 

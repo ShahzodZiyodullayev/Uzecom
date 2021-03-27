@@ -6,6 +6,10 @@ exports.catalog = (req, res) => {
     res.render("./page/catalog", {layout: "layout", title: "Katalog"})
 }
 
-exports.Zakaz = (req, res) => {
-    res.render("./page/Zakaz", {layout: "layout", title: "Buyurtma"})
+exports.detalkaZakaz = (req, res) => {
+    res.render("./page/detalkaZakaz", {layout: "layout", title: "Buyurtma"})
+}
+
+exports.zakaz = (req, res) => {
+    res.render("./page/zakaz", {layout: "layout", title: "Buyurtma"})
 }

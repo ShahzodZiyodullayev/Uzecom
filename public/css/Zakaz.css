@@ -39,12 +39,10 @@ a{
 .zakazN0{
     padding-bottom: 50px;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .zakazN0 h1{
+    text-align: center;
     font-weight: 200;
     margin: 40px;
 }
@@ -187,4 +185,16 @@ a{
 .allProduct h1{
     color: #003466;
     font-weight: bold;
+}
+
+.orderSee{
+    width: 280px;
+    height: 50px;
+    background-color: #003466;
+}
+
+.orderSee a p{
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
 }
